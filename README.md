@@ -24,14 +24,6 @@ pip install -r requirements.txt
 
 ---
 
-## ⚙️ Setup Environment - Shell/Terminal
-'''bash
-mkdir proyek_analisis_data
-cd proyek_analisis_data
-pip install -r requirements.txt
-
----
-
 ## ▶️ Menjalankan Dashboard
 '''bash
 streamlit run dashboard/dashboard_fundamental_analisis_data.py
