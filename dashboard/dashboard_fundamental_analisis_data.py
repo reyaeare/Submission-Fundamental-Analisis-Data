@@ -8,7 +8,8 @@ warnings.filterwarnings('ignore')
 
 st.set_page_config(
     page_title="E-Commerce Dashboard",
-    layout="wide"
+    layout="wide",
+    initial_sidebar_state="expanded"
 )
 
 st.markdown("""
@@ -27,7 +28,6 @@ st.markdown("""
 
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
-    header {visibility: hidden;}
 
     .custom-card {
         background: #FFFFFF;
@@ -145,7 +145,6 @@ st.markdown("""
     }
 </style>
 """, unsafe_allow_html=True)
-
 COLOR_PRIMARY = '#2D6A4F'
 COLOR_GOLD    = '#E9C46A'
 COLOR_MUTED   = '#B7E4C7'
