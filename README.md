@@ -14,10 +14,21 @@ Proyek ini bertujuan untuk:
 - Melakukan segmentasi pelanggan menggunakan metode RFM (Recency, Frequency, Monetary)
 
 ---
-
-## ⚙️ Setup Environment - Anaconda
+## ⚙️ Setup & Run Dashboard
 
 ```bash
+# Setup Environment - Anaconda
 conda create --name main-ds python=3.9
 conda activate main-ds
 pip install -r requirements.txt
+
+# Setup Environment - Shell/Terminal
+mkdir proyek_analisis_data
+cd proyek_analisis_data
+pip install -r requirements.txt
+
+# Run Dashboard
+streamlit run dashboard/dashboard_fundamental_analisis_data.py
+
+# Open in browser
+http://localhost:8501
