@@ -14,6 +14,7 @@ Proyek ini bertujuan untuk:
 - Melakukan segmentasi pelanggan menggunakan metode RFM (Recency, Frequency, Monetary)
 
 ---
+
 ## ⚙️ Setup & Run Dashboard
 
 ```bash
@@ -30,5 +31,3 @@ pip install -r requirements.txt
 # Run Dashboard
 streamlit run dashboard/dashboard_fundamental_analisis_data.py
 
-# Open in browser
-http://localhost:8501
