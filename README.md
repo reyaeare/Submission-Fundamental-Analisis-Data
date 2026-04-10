@@ -17,5 +17,5 @@ pip install -r requirements.txt
 
 ## Run steamlit app
 ```
-streamlit run dashboard/dashboard_fundamental_analisis_data.py
+streamlit run dashboard/fiks_dashboard_fundamental_analisis_data.py
 ```
